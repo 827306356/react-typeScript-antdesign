@@ -2,7 +2,7 @@ import { memo } from "react";
 interface Props {
   children?: React.ReactNode;
 }
-const Template = memo(({ children }: Props) => {
-  return (<div>Template</div>);
+const Download = memo(({ children }: Props) => {
+  return (<div>Download</div>);
 });
-export default Template;
+export default Download;
